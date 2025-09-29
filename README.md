@@ -18,14 +18,11 @@ vLLM Service (Prometheus-compatible Endpoint) → Telegraf → InfluxDB → Graf
 
 Example screenshots of the Grafana dashboard are shown below, each displaying multiple panels:
 
-> **TODO**: add screenshots..
-
-![Dashboard Overview 1](screenshots/dashboard-overview-1.png)
+![Dashboard Overview 1](img/screenshot-1.png)
 *Main dashboard with throughput, request decode time, and token statistics.*
 
-![Dashboard Overview 2](screenshots/dashboard-overview-2.png)
-
-*Panels for active requests, HTTP response codes, Python GC collections, and GPU cache usage.*
+![Dashboard Overview 2](img/screenshot-2.png)
+*Panels for active request counts, counts for success and failed HTTP responses, Python GC collections, and GPU cache usage.*
 
 
 ## Data Collection Setup (Telegraf)
